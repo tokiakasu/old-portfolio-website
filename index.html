@@ -8,11 +8,13 @@
         <script src="https://livejs.com/live.js"></script>
     </head>
     <body>
-        <!-- particles.js container -->
         <div id="particles-js"></div>
 
-        <!-- scripts -->
         <script src="assets/js/particles.js"></script>
-        <script src="assets/js/app.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            const particles = document.querySelector("#particles-js")
+            fadeIn(particles, 1000, 'flex')
+        </script>
     </body>
 </html>
