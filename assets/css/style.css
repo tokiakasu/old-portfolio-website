@@ -50,7 +50,7 @@ h1 {
     text-shadow: 0 0 10px rgba(255, 255, 255, .35)
 }
 
-h6 {
+h2 {
     color: #FFF;
     font-size: 24px;
     font-weight: 300;
@@ -73,6 +73,12 @@ a {
     text-transform: lowercase;
     /* text-shadow: 0 0 10px rgba(255, 255, 255, .35) */
 }
+
+#email.open{
+    display: block;
+}
+
+/* --- particles.js --- */
 
 #particles-js {
     position: absolute;

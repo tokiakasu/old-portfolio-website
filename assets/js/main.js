@@ -15,3 +15,4 @@ const fadeIn = (el, timeout, display) => {
     el.style.opacity = 1;
   }, 10);
 };
+
