@@ -8,6 +8,7 @@
         <link rel="stylesheet" media="screen" href="assets/css/style.css">
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔲</text></svg>">
         <!-- <script src="https://livejs.com/live.js"></script> -->
     </head>
@@ -18,23 +19,23 @@
             <h1>Artyom Bulgakov</h1>
             <h2>web pentester & developer</h2>
             <p>
-                <a href="mailto:ar_bulgakov@outlook.com" target="_blank">mail</a>
+                <a href="mailto:ar_bulgakov@outlook.com" target="_blank" rel="noopener">mail</a>
                 |
-                <a href="https://t.me/tokiakasus" target="_blank">telegram</a>
+                <a href="https://t.me/tokiakasus" target="_blank" rel="noopener">telegram</a>
                 |
-                <a href="https://github.com/tokiakasu" target="_blank">github</a>
+                <a href="https://github.com/tokiakasu" target="_blank" rel="noopener">github</a>
                 |
-                <a href="https://tokiakasu.github.io/write-ups" target="_blank">write-ups</a>
+                <a href="https://tokiakasu.github.io/write-ups" target="_blank" rel="noopener">write-ups</a>
                 |
-                <a href="https://t.me/dangercurve" target="_blank" style="">channel</a>
+                <a href="https://t.me/dangercurve" target="_blank" rel="noopener">channel</a>
             </p>
         </div>
 
         <script src="assets/js/particles.min.js"></script>
         <script src="assets/js/main.js"></script>
         <script>
-            const particles = document.querySelector(".wrapper")
-            fadeIn(particles, 2000, 'flex')
+			$(".wrapper").css("display", "none");
+			$(".wrapper").fadeIn(1600);
         </script>
     </body>
 </html>
